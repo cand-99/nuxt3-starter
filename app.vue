@@ -1,9 +1,11 @@
 <script setup lang="ts">
-
+const { setMeta } = useCustomMeta()
+setMeta('App Title')
 </script>
 
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
+  <NuxtLayout>
+    <NuxtLoadingIndicator />
+    <NuxtPage />
+  </NuxtLayout>
 </template>
