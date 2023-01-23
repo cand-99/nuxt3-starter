@@ -16,7 +16,7 @@ export default defineConfig({
     // ...
     colors: {
       veryCool: '#0000ff', // class="text-very-cool"
-      lifght: {
+      light: {
         primary: '#F9A30E',
       },
       dark: {
